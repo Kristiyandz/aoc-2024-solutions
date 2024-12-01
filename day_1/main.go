@@ -85,7 +85,7 @@ func main() {
 	}
 
 	sum := getSum(result)
-	fmt.Printf("Total distance between numbers: %d", sum)
+	fmt.Printf("Total distance between numbers: %d\n", sum)
 
 	// PART TWO LOGIC
 	firstArrCount := make(map[int]int)
